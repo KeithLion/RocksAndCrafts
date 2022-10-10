@@ -5,4 +5,6 @@ name: {type: string},
 email: {type: email},
 password: {type: password}
 }, {timestamps: true});
-module.exports = mongoose.model('user', shopSchema)
+module.exports = mongoose.model('User', shopSchema)
+
+model.exports = User
